@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>PROVITSA INTERIOR'S</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+header{
+background:black;
+color:white;
+padding:30px;
+}
+
+header h1{
+color:gold;
+}
+
+section{
+padding:40px;
+}
+
+.gallery img{
+width:250px;
+margin:10px;
+border-radius:10px;
+}
+
+footer{
+background:black;
+color:white;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>PROVITSA INTERIOR'S</h1>
+<p>Luxury Interior Design</p>
+</header>
+
+<section>
+<h2>About Us</h2>
+<p>We design modern luxury interiors for homes and offices.</p>
+</section>
+
+<section>
+<h2>Our Portfolio</h2>
+
+<div class="gallery">
+<img src="design1.jpg">
+<img src="design2.jpg">
+<img src="design3.jpg">
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+<p>Phone: +256 XXX XXX XXX</p>
+<p>Email: provitsainteriors@gmail.com</p>
+<p>Location: Kampala, Uganda</p>
+</section>
+
+<footer>
+<p>© 2026 PROVITSA INTERIOR'S</p>
+</footer>
+
+</body>
+</html>
