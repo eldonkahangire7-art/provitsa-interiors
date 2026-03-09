@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>PROVITSA INTERIOR'S</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+header{
+background:black;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+color:gold;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:500px;
+background:url('interior.jpg');
+background-size:cover;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-size:40px;
+background-position:center;
+}
+
+section{
+padding:60px;
+text-align:center;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>PROVITSA INTERIOR'S</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<div class="hero">
+Luxury Interior Design
+</div>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Interior Design</h3>
+<p>Modern luxury interior solutions.</p>
+</div>
+
+<div class="card">
+<h3>3D Visualization</h3>
+<p>See your space before it is built.</p>
+</div>
+
+<div class="card">
+<h3>Home Decoration</h3>
+<p>Elegant styling and decoration.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2>Our Portfolio</h2>
+
+<div class="gallery">
+
+<img src="design1.jpg">
+<img src="design2.jpg">
+<img src="design3.jpg">
+<img src="design4.jpg">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Phone: +256 XXX XXX XXX</p>
+<p>Email: provitsainteriors@gmail.com</p>
+<p>Kampala, Uganda</p>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/256XXXXXXXXX">
+WhatsApp Us
+</a>
+
+<footer>
+
+<p>© 2026 PROVITSA INTERIOR'S</p>
+
+</footer>
+
+</body>
+</html>
